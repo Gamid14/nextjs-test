@@ -1,10 +1,9 @@
 'use client'
 import SkillsImages from "./SkillsImages"
-import { Fade } from "react-awesome-reveal"
 import Image from "next/image"
 const SkillsPage = () => {
   return (
-    <Fade direction="down">
+    
       <section className="py-32 flex flex-col items-center xl:h-screen xl:justify-evenly">
         <h2 className="text-4xl font-bold">Skills</h2>
         <p className="pt-12 pb-20 text-lg lg:text-2xl font-medium">I work in such programs as</p>
@@ -21,7 +20,7 @@ const SkillsPage = () => {
         </div>
 
       </section>
-      </Fade>  
+      
     
     
   )
